@@ -22,3 +22,10 @@ https://pfefferz.github.io/dlt-daemon-doxygen-built/group__userapi.html#ga5236bb
 Define macro at
 https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__user__macros_8h_source.html
 
+enum  	DltReturnValue {
+  DLT_RETURN_LOGGING_DISABLED = -7, DLT_RETURN_USER_BUFFER_FULL = -6, DLT_RETURN_WRONG_PARAMETER = -5, DLT_RETURN_BUFFER_FULL = -4,
+  DLT_RETURN_PIPE_FULL = -3, DLT_RETURN_PIPE_ERROR = -2, DLT_RETURN_ERROR = -1, DLT_RETURN_OK = 0,
+  DLT_RETURN_TRUE = 1
+}
+https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__types_8h.html
+
