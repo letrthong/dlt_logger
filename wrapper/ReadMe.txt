@@ -1,0 +1,1 @@
+https://github.com/COVESA/dlt-daemon/blob/master/examples/example4/CMakeLists.txt

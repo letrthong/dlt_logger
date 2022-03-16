@@ -3,6 +3,8 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_CXX_STANDARD 11)
 project (runMain )
 
+find_package(PkgConfig)
+pkg_check_modules(DLT REQUIRED automotive-dlt)
 
 
 #For the shared library:
@@ -20,4 +22,11 @@ include_directories(./../include)
 
  add_executable(test.out ./main.cpp)
  
-target_link_libraries(test.out ${PROJECT_LINK_LIBS} )
+#target_link_libraries(test.out ${PROJECT_LINK_LIBS}  )
+target_link_libraries(test.out ${PROJECT_LINK_LIBS} ${DLT_LIBRARIES} )
+
+
+
+#Link for dlt
+#target_link_libraries(dlt-example4 ${DLT_LIBRARIES})
+#set_target_properties(dlt-example4 PROPERTIES LINKER_LANGUAGE C)

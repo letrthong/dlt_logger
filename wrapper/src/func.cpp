@@ -2,9 +2,9 @@
 #include  <stdio.h>
 
 func::func(){
-    printf("hello\n");
+    printf("func::hello\n");
 }
 
 func::~func(){
-      printf(" world!\n");
+      printf("~func::world!\n");
 }
