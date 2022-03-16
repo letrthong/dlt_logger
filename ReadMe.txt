@@ -16,3 +16,9 @@ https://github.com/orgs/COVESA/repositories
 
 
 https://pfefferz.github.io/dlt-daemon-doxygen-built/group__userapi.html#ga5236bbd53232e5945552c760f639d2e6 
+
+
+
+Define macro at
+https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__user__macros_8h_source.html
+
