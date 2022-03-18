@@ -33,7 +33,10 @@ https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__types_8h.html
 /usr/local/bin/dlt-daemon
 
 /usr/local/etc$ ls
-dlt.conf  dlt_gateway.conf
-
+  dlt.conf  dlt_gateway.conf
+  /usr/local/etc/dlt.conf 
 LoggingFilename = /opt/dlt.log
 
+start dlt-daemon
+https://github.com/COVESA/dlt-daemon/blob/master/doc/dlt-daemon.1.md
+dlt-daemon  -c /usr/local/etc/dlt.conf
