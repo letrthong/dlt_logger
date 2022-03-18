@@ -29,3 +29,9 @@ enum  	DltReturnValue {
 }
 https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__types_8h.html
 
+ which dlt-daemon 
+/usr/local/bin/dlt-daemon
+
+/usr/local/etc$ ls
+dlt.conf  dlt_gateway.conf
+
