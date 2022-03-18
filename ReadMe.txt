@@ -35,3 +35,5 @@ https://pfefferz.github.io/dlt-daemon-doxygen-built/dlt__types_8h.html
 /usr/local/etc$ ls
 dlt.conf  dlt_gateway.conf
 
+LoggingFilename = /opt/dlt.log
+
