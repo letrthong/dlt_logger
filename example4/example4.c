@@ -51,11 +51,18 @@
 DLT_DECLARE_CONTEXT(con_exa1);
 
 int main()
-{
+{   
+    //---------[++]----[store file]-----------------
+    dlt_with_session_id(1);
+    dlt_with_timestamp(1);
+    dlt_with_ecu_id(1);
+    dlt_verbose_mode();
+  //---------[--]----[store file]-----------------
+
     unsigned char buffer[256];
     int num;
     struct timespec ts;
-
+    printf("start example4\n") ;
     DLT_REGISTER_APP("EXA4", "Fourth Example");
 
     DLT_REGISTER_CONTEXT(con_exa1, "CON", "First context");
@@ -104,4 +111,5 @@ int main()
     DLT_UNREGISTER_CONTEXT(con_exa1);
 
     DLT_UNREGISTER_APP();
+     printf("end example4\n") ;
 }
